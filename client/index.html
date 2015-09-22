@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <title>Customer Inquiry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  </head>
+  <!-- Defining the header on this html page. -->
+  <body>
+    <div class="page-header">
+      <h1 style="color:blue">College of Business</h1>
+    </div>
+    <!-- Creating my radio buttons for each category Management, Marketing, Economics, General Business -->
+    <form action="/formhandler" method='post'>
+      <div class="form-group col-md-4">
+        <label for="management">Management</label>
+        <input type="radio" name="program" class="form-control" id="management">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="marketing">Marketing</label>
+        <input type="radio" name="program" class="form-control" id="marketing">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="general business">General Business</label>
+        <input type="radio" name="program" class="form-control" id="general business">
+      </div>
+       <div class="form-group col-md-4">
+        <label for="economics">Economics</label>
+        <input type="radio" name="program" class="form-control" id="economics">
+      </div>
+      <hr>
+    <div class="form-group col-md-4">      
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" class="form-control" id="fname">
+    </div>
+    <div class="form-group col-md-4">      
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" class="form-control" id="lname">
+    </div>
+    <div class="form-group col-md-4">      
+      <label for="email">Email</label>
+      <input type="text" name="email" class="form-control" id="email">
+    </div>
+    <div class="form-group col-md-4">      
+      <input type="submit" name="submit" id="submit" value="submit">
+    </div>
+    </form>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/angular.min.js"></script>
+  </body>
+</html>
+

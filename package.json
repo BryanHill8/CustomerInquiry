@@ -1,0 +1,12 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "Creating a customer inquiry using node.js",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "express": "~4.13.3",
+    "body-parser": "~1.14.0"
+  }
+}
